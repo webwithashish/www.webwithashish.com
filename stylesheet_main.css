@@ -1,0 +1,636 @@
+/* start of body style */
+body {
+  background-image: url("background-image.jpg");
+  background-image: repeating-linear-gradient(right left);
+  padding: 10px;
+  margin: 0 0 0 0;
+}
+/* end of body style */
+
+/* start of navigation stylesheet */
+header {
+  height: 120px;
+  z-index: +1;
+}
+div.name {
+  display: inline-block;
+  width: 450px;
+  color: #008ccf;
+}
+div > img {
+  display: inline;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: left;
+}
+.nav-h1 {
+  font-size: 30px;
+  margin-top: 23px;
+  transition: 250ms all linear;
+}
+.nav-h1:hover {
+  text-shadow: rgb(103, 103, 247) 1px 1px 1px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+.weblink {
+  font-size: 25px;
+  margin-top: 10px;
+  cursor: not-allowed;
+}
+.nav-bar {
+  width: 700px;
+  height: 40px;
+  padding: 10px;
+  display: inline-block;
+  float: right;
+}
+.nav-ul {
+  margin: 0 0 0 0;
+  padding: 0;
+  float: right;
+}
+li.nav-list {
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+.navlink {
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: 100ms all linear;
+}
+.navlink:hover {
+  text-decoration: underline;
+  text-shadow: rgb(103, 103, 247) 1px 1px 2px;
+}
+a.navlink {
+  color: #008ccf;
+}
+.getintouch {
+  display: inline;
+  background-color: #006190;
+}
+.getintouch:hover {
+  background-color: dodgerblue;
+}
+#getintouch {
+  color: #fff;
+}
+hr {
+  border-top: 1px solid #aedaee;
+}
+div.nav-email {
+  display: inline-block;
+  height: 30px;
+  width: 650px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#nav-email {
+  float: right;
+  margin-right: 100px;
+  font-size: 25px;
+  color: #008ccf;
+}
+div.material-icons {
+  color: #008ccf;
+  display: inline-block;
+}
+/* end of navigation stylesheet  */
+
+/* ------------------------------------------------------start of main home page style area */
+hr.hr-main {
+  border-top: 10px dotted #aedaee;
+  width: 10cm;
+}
+.main-title {
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.main-h1 {
+  margin: 0;
+  font-size: 60px;
+  font-family: "Bakbak One", cursive;
+  font-weight: 100;
+  color: #0c2d48;
+  text-align: center;
+}
+.main-h1::after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: #aedaee;
+  transition: 300ms;
+  margin: 0 auto;
+}
+
+.main-h1:hover::after {
+  width: 50%;
+}
+.subtitile-block {
+  margin: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #444;
+  text-align: center;
+}
+div.work-container {
+  height: 800px;
+  width: 1250px;
+  margin: 100px auto;
+  margin-top: 100px;
+  padding: 10px;
+}
+div.work-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 30px;
+}
+h1.work {
+  color: #0c2d48;
+  margin: 30px 30px 10px 30px;
+}
+h1.work::after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: #aedaee;
+  transition: 250ms;
+  margin: 0 auto;
+}
+
+h1.work:hover::after {
+  width: 30%;
+}
+small.template-title {
+  display: inline-block;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+.temp-img {
+  height: 250px;
+  width: 350px;
+  border: 1px dotted black;
+  padding: 2px;
+  margin: 20px 20px;
+}
+div.main-technologies-container {
+  margin: 0 auto;
+  width: 1230px;
+  height: 700px;
+  padding: 30px;
+}
+h1.technologies-title {
+  text-align: center;
+  color: #0c2d48;
+  font-size: 3rem;
+  line-height: 20px;
+}
+h1.technologies-title::after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: #aedaee;
+  transition: 250ms;
+  margin: 20px auto;
+}
+h1.technologies-title:hover::after {
+  width: 35%;
+}
+div.technologies-grid {
+  width: 1200px;
+  height: 420px;
+  padding: 15px;
+  margin-left: 13px;
+}
+div.technologies {
+  display: grid;
+  display: inline-block;
+  width: 500px;
+  height: 200px;
+  text-align: justify;
+  color: #0c2d48;
+  font-family: sans-serif;
+  margin: 0 0 0 50px;
+}
+div.tech2,
+div.tech4 {
+  margin-left: 90px;
+  margin-right: 50px;
+}
+div.tech3,
+div.tech4 {
+  margin-top: 5px;
+}
+img.tech-img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+p.tech-lorem {
+  display: inline-block;
+  text-align: justify;
+  font-size: 20px;
+}
+/* start of footer styling area */
+footer {
+  display: block;
+  margin-top: 200px;
+}
+div.footer {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  background-color: #6f9196;
+}
+div.footer-icon {
+  margin: 0 auto;
+  height: 40px;
+  width: 20%;
+  padding: 10px;
+  margin-top: 10px;
+}
+i.f-icon {
+  font-size: 30px;
+  margin: 0px 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+div.footer-list {
+  width: 40%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+ul.footer-ul {
+  margin: 10px 50px 20px 50px;
+}
+li.footer-li {
+  display: inline-block;
+  margin: 0 auto;
+  margin: 7px;
+  list-style-type: disc;
+  font-size: 20px;
+}
+.copywrite-statment {
+  font-size: 20px;
+  color: #111;
+  margin-left: 70px;
+  /* margin-bottom: 10px; */
+  font-weight: lighter;
+}
+/* end of footer styling area */
+
+/* --------------------------------------------------------end of main home page style area */
+
+/* -----------------------------------------------------------start of about page style area */
+h1.about-title-h1,
+h1.books-main-title,
+h1.learnings-main-title,
+h1.project-main-title,
+h1.getintouch-main-title {
+  font-family: "Bakbak One", cursive;
+  text-align: center;
+  color: #008ccf;
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+h1.about-title-h1::after,
+h1.books-main-title::after,
+h1.learnings-main-title::after,
+h1.project-main-title::after,
+h1.getintouch-main-title::after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: #aedaee;
+  transition: 200ms;
+  margin: 0 auto;
+}
+h1.about-title-h1:hover::after,
+h1.books-main-title:hover::after,
+h1.learnings-main-title:hover::after,
+h1.project-main-title:hover::after,
+h1.getintouch-main-title:hover::after {
+  width: 35%;
+}
+div.article-container {
+  margin: 0 auto;
+  width: 65%;
+  padding: 10px;
+}
+img.about-image {
+  width: 120px;
+  height: 150px;
+  padding: 2px;
+  border: 2px solid #008ccf;
+  margin-right: 20px;
+}
+p.article-para {
+  margin-top: 30px;
+  font-size: 25px;
+  line-height: 1.5em;
+  text-indent: 1cm;
+  font-weight: 300;
+  color: #0c2d48;
+  text-align: justify;
+}
+h1.about-front-end,
+h1.about-design,
+h1.about-get-started {
+  color: #008ccf;
+  font-size: 25px;
+}
+a.get-in-touch-link {
+  color: rgb(211, 92, 211);
+}
+/* aside front end development pannel */
+aside.about-card-container {
+  height: 410px;
+  width: 270px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 10px;
+  float: right;
+  margin-left: 30px;
+}
+div.cards {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px auto 5px;
+}
+div img.front-end-img {
+  height: 30px;
+  width: 30px;
+  float: left;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+/* aside front end development pannel */
+/* aside design and prototyping pannel */
+aside.design-proto-container {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 200px;
+  height: 250px;
+  float: right;
+  margin-left: 30px;
+}
+ul.list-container {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 auto;
+}
+li.list-tags {
+  list-style-type: none;
+  display: block;
+  margin: 10px;
+  font-size: 20px;
+}
+img.design-proto-icon {
+  width: 30px;
+  height: 30px;
+}
+/* aside design and prototyping pannel */
+/* ----------------------------------------------------------------end of about page style area */
+/* ----------------------------------------------------------------start of books page style area */
+div.book-shelf {
+  display: block;
+  border: 2px solid #008ccf;
+  width: 1100px;
+  height: 3650px;
+  margin: 30px auto 30px auto;
+  padding: 30px;
+}
+div.book-shelf {
+  background: linear-gradient(119deg, #fff 0%, #5bd5d7 100%);
+}
+td.books-info-left {
+  display: inline-block;
+  border: 1px solid #444;
+  background-color: #eee;
+  width: 500px;
+  height: 700px;
+  margin: 10px 30px 10px 10px;
+}
+td.books-info-left:hover,
+td.books-info-right:hover {
+  background: #fff;
+  color: #333;
+}
+td.books-info-right {
+  display: inline-block;
+  border: 1px solid #444;
+  background-color: #eee;
+  width: 500px;
+  height: 700px;
+  margin: 10px 10px 10px 30px;
+}
+img.books-cover-page {
+  width: 200px;
+  height: auto;
+}
+h2.books-h2 {
+  text-align: center;
+  color: #0c2d48;
+  text-transform: capitalize;
+}
+h2.books-h2::after {
+  content: "";
+  width: 0px;
+  height: 5px;
+  display: block;
+  background: #aedaee;
+  transition: 250ms;
+  margin: 0 auto;
+}
+
+h2.books-h2:hover::after {
+  width: 75%;
+}
+div.books-summary {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  text-indent: 2cm;
+  padding-left: 10px;
+  font-family: serif;
+}
+/* -----------------------------------------------------------------end of books page style area */
+
+/* -----------------------------------------------------------------start of learnings page style area */
+div.learnings {
+  display: block;
+  border: 1px solid #008ccf;
+  width: 70%;
+  height: 1600px;
+  /* padding: 10px; */
+  margin: 20px auto;
+}
+div.learnings-front-end-container {
+  /* border: 1px solid red; */
+  display: inline-block;
+  height: 650px;
+  width: 40%;
+  margin: 20px;
+  /* padding: 30px; */
+}
+div.learnings-back-end-container {
+  /* border: 1px solid purple; */
+  display: inline-block;
+  height: 600px;
+  float: right;
+  width: 40%;
+  margin: 20px;
+  margin-right: 100px;
+  /* padding: 30px; */
+}
+div.learnings-other-container {
+  /* border: 1px solid brown; */
+  height: 810px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  padding-top: 0;
+}
+h2.learn-front-title,
+h2.learn-back-title,
+h2.learn-others-title {
+  display: inline-block;
+  color: #008ccf;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-left: 150px;
+}
+h2.learn-others-title {
+  margin-left: 280px;
+}
+ul.front-learn,
+ul.back-learn,
+ul.others-learn {
+  /* margin: 0 auto; */
+  margin-left: 100px;
+}
+ul.others-learn {
+  display: inline-block;
+  margin-left: 250px;
+  padding: 5px;
+}
+li.learn-list-items {
+  font-size: 25px;
+  margin: 5px auto;
+  font-family: sans-serif;
+  padding: 5px;
+}
+img.learn-img {
+  width: 40px;
+  height: 40px;
+}
+li.highlight {
+  /* border: 1px solid red; */
+  background: linear-gradient(119deg, #acf0f1 70%, #e6eeee 30%);
+}
+/* -------------------------------------------------------------------start of learnings page style area */
+
+/* -----------------------------------------------------------------star of projects page style area  */
+div.project-container {
+  border: 1px solid #008ccf;
+  display: block;
+  margin: 20px auto;
+  width: 70%;
+  height: 600px;
+}
+div.project-container:hover {
+  background: linear-gradient(119deg, #fff 0%, #a9e8e9 100%);
+  cursor: not-allowed;
+}
+/* -----------------------------------------------------------------end of projects page style area  */
+
+/* ----------------------------------------------------------------start of get in touch page style area */
+div.getintouch-container {
+  border: 1px solid #008ccf;
+  display: block;
+  height: 800px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+}
+div.message-text {
+  margin: 20px;
+  margin-top: 0%;
+}
+p.message-para {
+  display: inline-block;
+  margin-left: 70px;
+  font-size: 30px;
+  font-family: serif;
+  color: #444;
+  margin-top: 0;
+}
+div.form-container {
+  padding: 20px;
+}
+div.form {
+  display: block;
+  height: 550px;
+  width: 70%;
+  padding: 20px;
+  margin: 0 auto;
+  cursor: not-allowed;
+}
+div.form:hover {
+  background-color: #ccc;
+}
+span.req {
+  color: red;
+  font-size: 22px;
+}
+h2.form-h2 {
+  border-bottom: 1px solid #555;
+  display: inline-block;
+  font-size: 25px;
+  color: #333;
+  margin: 20px;
+  margin-left: 0;
+  font-family: sans-serif;
+  cursor: not-allowed;
+}
+label.label {
+  display: inline-block;
+  font-family: sans-serif;
+  color: #222;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 0;
+  cursor: not-allowed;
+}
+input {
+  width: 400px;
+  height: 30px;
+  cursor: not-allowed;
+}
+button.sumbit-button {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: not-allowed;
+}
+/* ----------------------------------------------------------------end of get in touch page style area */
