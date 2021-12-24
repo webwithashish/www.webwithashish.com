@@ -571,6 +571,7 @@ div.getintouch-container {
   height: 800px;
   width: 60%;
   margin: 0 auto;
+  margin-top: 10px;
   padding: 30px;
 }
 div.message-text {
